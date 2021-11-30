@@ -1,0 +1,235 @@
+.video-page {
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    color: #192646;
+    margin: 0;
+}
+
+.iframe-wrapper {
+    margin-left: 80px;
+}
+
+.iframe-video {
+    border-radius: 14px;
+}
+
+.video-like-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.like-list {
+    display: flex;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.like-item {
+    margin-right: 10px;
+
+    span {
+        position: relative;
+        text-align: center;
+        background: #ebebeb80;
+        border-radius: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #192646b0;
+        padding: 5px 10px 5px 30px;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+            display: block;
+            content: "";
+            width: 18px;
+            height: 15px;
+            top: 8px;
+            left: 8px;
+            background-repeat: no-repeat;
+            background-image: url("../../assets/images/like-hand.svg");
+        }
+    }
+
+}
+
+.like-item:nth-child(2) {
+    span {
+        &::before {
+            background-image: url("../../assets/images/dislike-hande.svg");
+        }
+    }
+}
+
+.like-item:nth-child(3) {
+    span {
+        &::before {
+            background-image: url("../../assets/images/share-icon.svg");
+        }
+    }
+}
+
+.more {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.video-info-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.video-info-img {
+    object-fit: contain;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.video-info {
+    margin-left: 12px;
+}
+
+.video-info-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    color: #19202C;
+    margin: 0;
+}
+
+
+.video-info-channel-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.video-info-text {
+    width: 100%;
+    max-width: 500px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.6;
+    margin: 0;
+    margin-top: 14px;
+    margin-left: 58px;
+}
+
+.video-info-link {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+.video-info-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-bottom: auto;
+    transition: all 0.3s ease;
+}
+
+.video-info-btn:hover {
+    color: #C2C2C2;
+    box-shadow: 5px 5px 10px #f15d5d;
+}
+
+.video-info-btn:active {
+    color: #C2C2C2;
+    box-shadow: 5px 5px 10px #862828;
+}
+
+.video__item {
+    width: 360px;
+    margin-bottom: 25px;
+}
+
+.video-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.video__item-img {
+    width: 360px;
+    height: 213px;
+    border-radius: 14px;
+}
+
+.video__item-view-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video__item-user-name-link {
+    text-decoration: none;
+}
+
+.video-page-list-title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.video-page-list-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #19202C;
+    margin: 0;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #19202C;
+    margin-right: 11px;
+}

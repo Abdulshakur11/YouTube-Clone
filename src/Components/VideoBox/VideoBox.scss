@@ -1,0 +1,41 @@
+.video-box {
+    position: relative;
+    height: 240px;
+    margin-right: 40px;
+}
+
+.video-box__link {
+    text-decoration: none;
+}
+
+.video-box__img {
+    border-radius: 14px; 
+}
+
+.video-box__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+
+.video-box__view-wrappr {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.views {
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+
+.name-of-user {
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin-left: auto;
+}
