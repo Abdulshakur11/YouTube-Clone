@@ -56,7 +56,7 @@ function Channel() {
                             </li>
 
                             <li className="channel__nested-item">
-                                {/* <input type="text" /> */}
+                                <input type="text" />
                                 <span>
                                     <img src={search} alt="" />
                                 </span>
