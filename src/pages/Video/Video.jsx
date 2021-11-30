@@ -15,7 +15,7 @@ function Video() {
     const params = useParams();
     let title = '';
     if (params.id && items.length >= 1) {
-        title = items.find((item) => item.id == params.id)
+        title = items.find((item) => item.id !== params.id)
     }
 
     return (
